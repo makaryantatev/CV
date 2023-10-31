@@ -1,0 +1,402 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+  padding-top: 20px;
+    background-color: rgb(39, 39, 39);
+}
+.divmain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h2{
+  text-align: center;
+  color: rgb(5, 156, 156);
+  font-size: 40px;
+}
+.div1, .div2{
+    width: 30%;
+    background-color: white;
+    margin: 50px;
+    padding: 50px 20px 50px 20px;
+    box-sizing: border-box;
+    animation: fadeIn 0.3s 1;
+}
+.div1-div2{
+  display: flex;
+}
+
+.div1-p7{
+  margin: 5px;
+  color: gray;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education{
+  display: flex;
+}
+
+.education1-p2{
+  margin: 5px;
+  color: gray;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education2-p1{
+  margin: 5px;
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.education, .skills, .interests, .language{
+  margin: 5px;
+  color: rgb(5, 156, 156);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.skills{
+  display: flex;
+}
+.labelskills{
+  display: flex;
+  justify-content: start;
+  margin: 5px;
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputskills{
+  margin: 5px;
+  width: 80px;
+  height: 5px;
+}
+.labelinterests{
+  margin: 5px;
+  color: rgb(39, 39, 39);
+  font-size: 10px;
+}
+.language{
+  display: flex;
+}
+.labellang{
+  margin: 5px;
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputlang{
+  margin: 5px;
+  width: 80px;
+  height: 5px;
+}
+.excperience{
+  display: flex;
+}
+.excperience1-p1{
+  margin: 5px;
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.excperience1-p2, .excperience2-p2{
+  margin: 5px;
+  color: grey;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.excperience2-p1{
+  margin: 5px;
+  color: rgb(5, 156, 156);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.excperience, .reference{
+  margin: 5px;
+  color: rgb(5, 156, 156);
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.reference-p1{
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+  color: gray;
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.divspan1{
+  margin: 5px;
+  width: 95%;
+  height: 2px;
+  background-color: rgb(5, 156, 156);
+  animation: zoomIn 1.5s 1;
+}
+.divspan2{
+  margin: 5px;
+  width: 2px;
+  height: 300px;
+  background-color: rgb(5, 156, 156);
+  animation: zoomIn 1.5s 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div2-div1, .div1-div1{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img1::before{
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(5, 156, 156);
+  z-index: 1;
+}
+.div2-p1, .div1-p1{
+    display: flex;
+    justify-content: start;
+    color: rgb(5, 156, 156);
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: fadeInDownBig 1s 1;
+}
+.div2-p2, .div1-p2{
+    display: flex;
+    justify-content: start;
+    color: gray;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div1-p4, .div2-p4, .div1-p5, .div2-p5, .div1-p6, .div2-p6{
+    display: flex;
+    justify-content: start;
+    color: gray;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.div2-p3{
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+    color: rgb(5, 156, 156);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p7{
+    margin: 40px 5px 5px 5px;
+    display: flex;
+    justify-content: start;
+    color: gray;
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div2-p8{
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    color: rgb(5, 156, 156);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p9{
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    color: rgb(39, 39, 39);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p10{
+    margin: 30px 5px 5px 5px;
+    display: flex;
+    justify-content: start;
+    color: rgb(5, 156, 156);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p11{
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+    color: rgb(5, 156, 156);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p12, .div2-p14{
+    margin: 5px;
+    color: gray;
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div2-p13{
+    display: flex;
+    justify-content: start;
+    margin: 5px;
+    color: rgb(5, 156, 156);
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p15, .div2-p16{
+    margin: 5px;
+    display: flex;
+    justify-content: start;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2-p15{
+    margin-top: 50px;
+    color: rgb(75, 74, 74);
+}
+.div2-p16{
+    color: rgb(5, 156, 156);
+}
+
+
+.div2-span1{
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+    width: 130px;
+    height: 2px;
+    background-color: rgb(5, 156, 156);
+    animation: zoomIn 1.5s 1;
+}
+.div2-span2{
+    display: flex;
+    justify-content: start;
+    width: 2px;
+    height: 60px;
+    background-color: rgb(5, 156, 156);
+    animation: zoomIn 1.5s 1;
+}
+.div2-span3{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(5, 156, 156);
+    animation: zoomIn 1.5s 1;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  }
+  .animate__zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+  }
+
+
+  @-webkit-keyframes fadeInDownBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -2000px, 0);
+      transform: translate3d(0, -2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes fadeInDownBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -2000px, 0);
+      transform: translate3d(0, -2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .animate__fadeInDownBig {
+    -webkit-animation-name: fadeInDownBig;
+    animation-name: fadeInDownBig;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  .animate__fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+  }
